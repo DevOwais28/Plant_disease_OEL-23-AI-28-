@@ -33,7 +33,7 @@ img = cv2.imread(sample_img_path)
 # gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Apply edge detection
-laplacian = cv2.Laplacian(gray_img, cv2.CV_64F)
+laplacian = cv2.Laplacian(img, cv2.CV_64F)
 plt.imshow(laplacian)
 plt.show()
 
